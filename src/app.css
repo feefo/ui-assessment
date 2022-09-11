@@ -32,6 +32,24 @@ body {
   color: #61dafb;
 }
 
+.info, .caption {
+  color: rgb(126, 126, 126);
+}
+
+.caption {
+  font-weight: bold;
+}
+
+.iconContainer {
+  display: flex; 
+  align-items: center;
+}
+
+.iconContainer > * {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
