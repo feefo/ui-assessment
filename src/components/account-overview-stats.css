@@ -1,0 +1,8 @@
+.iconContainer {
+    display:"flex"; 
+    align-items: "center"
+}
+
+.iconContainer > * {
+    padding: 2px;
+}
